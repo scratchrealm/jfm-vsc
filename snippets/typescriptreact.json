@@ -1,0 +1,11 @@
+{
+	"useCallback": {
+		"prefix": "useCallback",
+		"body": [
+			"const handle$1 = useCallback(() => {",
+			"    $0",
+	     	"}, [])"
+		],
+		"description": "Create a callback"
+	}
+}
