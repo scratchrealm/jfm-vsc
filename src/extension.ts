@@ -38,7 +38,7 @@ export function activate(context: vscode.ExtensionContext) {
 	vscode.commands.registerCommand("jfm-vsc.show-snippets-info", () => {
 		vscode.window.showInformationMessage(`
 For snippets, create .json files in ~/.config/Code/User/snippets/.
-Examples of snippets .json files are found at: http://github.com/scratchrealm/jfm-vsc
+Examples of snippets .json files are found at: https://github.com/scratchrealm/jfm-vsc/tree/main/snippets
 		`)
 	});
 
